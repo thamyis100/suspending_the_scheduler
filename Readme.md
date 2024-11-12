@@ -96,7 +96,7 @@ void SimulateReadWriteOperation(void) {
 
 ## Expected Outcome
 
-The **Blue LED** should occasionally light up, indicating that the higher-priority `RedLed` task preempted the `GreenLed` task, causing contention on the shared resource.
+The **Blue LED** should not light up, indicating that there were no contentioin problem again.
 
 ## Conclusion
 
