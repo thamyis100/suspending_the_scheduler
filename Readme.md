@@ -103,3 +103,6 @@ The **Blue LED** should not light up, indicating that there were no contentioin 
 This project provides a clear demonstration of using scheduler suspension in FreeRTOS to handle shared resource contention in real-time tasks. Suspending the scheduler around the shared resource access ensures that no other task can preempt the current task, preserving data integrity. This approach is useful for critical sections where atomic access is required without interference from other tasks.
 
 ---
+
+## Video Demo Exercise 6-Demonstrate a simple way to eliminate resource contention - suspending the scheduler.
+https://github.com/user-attachments/assets/d3289e31-6ac8-4f97-9e63-5f1ba3259391
